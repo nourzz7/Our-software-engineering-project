@@ -1,0 +1,131 @@
+.medicine-list {
+    width: 100%;
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+}
+.About {
+    padding: 4px;
+    text-align:left;
+    background-color:green;
+    color: white;
+    border-radius: 3px; 
+    margin: 0px ;
+    max-width: 340px; 
+   }
+  
+  
+  .About:hover {
+    background-color:white ;
+    color: green;
+  }
+body
+{
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y: hidden; 
+    white-space: nowrap;
+}
+.medicine-item {
+   
+    display: inline-block;
+    
+    margin-right: 100px;
+    text-align: center; /* Center align the content */
+}
+
+.box
+{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.medicine-item img {
+   
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+   
+  
+    object-fit: contain;
+}
+.medicine-name {
+    margin-top: 10px; /* Add spacing between image and name */
+    font-family: Arial, sans-serif;
+}
+.medicine-info {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center; /* Center align items horizontally */
+    
+}
+.add-to-cart-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Display the button as block to take full width */
+    margin-top: 10px; /* Add margin on top for spacing */
+}
+
+.add-to-cart-btn:hover {
+    background-color: green;
+}
+nav ul {
+   
+    list-style-type: none;
+    background-color: #81C784; 
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #66BB6A; 
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 999; /* Ensure the header appears above other content */
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    
+    top: 80px; /* Adjust this value based on the header height */
+    background-color: #81C784;
+    
+    text-align: center;
+}
